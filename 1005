@@ -1,0 +1,13 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    float a,b,media;
+		while(cin>>a>>b)
+		media= (3.5*a+7.5*b)/11.0;
+		cout<<fixed;
+		cout.precision(5);
+		cout<<"MEDIA = "<<media<<endl;	
+}
