@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int num,salp;
+	float sal,hrs;
+	
+	cin>>num;
+	cin>>salp;
+	cin>>hrs;
+	
+	sal=hrs*salp;
+	
+	cout<<"NUMBER = "<<num<<endl;
+	cout<<fixed;
+	cout.precision(2);
+	cout<<"SALARY = U$ "<<sal<<endl;
+	
+	
+	
+}
