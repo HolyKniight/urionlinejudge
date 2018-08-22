@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+ 
+int main() {
+ 
+    const double pi = 3.14159;
+    double a,b,c,T,C,TR,Q,R;
+    
+    cin>>a>>b>>c;
+    T=a*c/2;
+    C= 3.14159*(c*c);
+    TR=(a+b)*c/2;
+    Q=b*b;
+    R=a*b;
+    cout<<fixed;
+	cout.precision(3);
+        cout<<"TRIANGULO: "<<T<<endl;
+        cout<<"CIRCULO: "<<C<<endl;
+        cout<<"TRAPEZIO: "<<TR<<endl;
+        cout<<"QUADRADO: "<<Q<<endl;
+        cout<<"RETANGULO: "<<R<<endl;
+	
+}
