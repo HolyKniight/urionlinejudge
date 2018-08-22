@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int km;
+	float cg,total;
+	
+	cin>>km;
+	cin>>cg;
+	
+	total=km/cg;
+	
+	cout<<fixed;
+	cout.precision(3);
+	
+	cout<<total<<" km/l"<<endl;
+	
+}
