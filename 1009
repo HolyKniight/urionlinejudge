@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string name;
+	double sal,vendas,final;
+	
+	cin>>name;
+	cin>>sal;
+	cin>>vendas;
+	
+	final=sal+0.15*vendas;
+	cout<<fixed;
+	cout.precision(2);
+	cout<<"TOTAL = R$ "<<final<<endl;
+	
+	
+}
