@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int p1,p2,n1,n2;
+	float preco1,preco2,total;
+	
+	cin>>p1>>n1>>preco1;
+	cin>>p2>>n2>>preco2;
+	total=n1*preco1+n2*preco2;
+	cout<<fixed;
+	cout.precision(2);
+	cout<<"VALOR A PAGAR: R$ "<<total<<endl;
+	
+	
+}
