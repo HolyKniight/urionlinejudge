@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+	double R,vol;
+	
+	cin>>R;
+	
+	vol=4.0/3*3.14159*R*R*R;
+	cout<<fixed;
+	cout.precision(3);
+	cout<<"VOLUME = "<<vol<<endl;
+	
+	
+}
